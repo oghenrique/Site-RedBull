@@ -29,10 +29,10 @@
 
   .menu{
       display: flex;
-      gap: 100px;
+      gap: 110px;
       align-items: center;
       text-align: center;
-      margin-left: 80px;
+      margin-left: 150px;
       margin-right: 0px;
 
 
@@ -51,7 +51,7 @@
 .tracos{
     width: 1.8%;
     display: flex;
-    gap: 80px;
+    gap: 100px;
 }
 
 .logo{
@@ -65,7 +65,7 @@
 .perfil{
     width: 6%;
     display: flex;
-    gap: 120px;
+    gap: 100px;
 }
 
 main > .latinha{
@@ -75,3 +75,10 @@ main > .latinha{
     margin-top: -50px;
 }
 
+.frase{
+    color: #FFF;
+    align-items: center;
+    text-align: center;
+    margin-right: 80px;
+
+}
