@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
+  }
+
+  body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("./img/fundo.svg");
+  }
+
+  header{
+      display: flex;
+      gap: 200px;
+    
+  }
+
+  main{
+    
+  }
+
+
+  .menu{
+      display: flex;
+      gap: 100px;
+      align-items: center;
+      text-align: center;
+      margin-left: 80px;
+      margin-right: 0px;
+
+
+  }
+
+  .menu > .Produtos{
+    color: #FF0000;
+
+  }
+
+.menu > .BullTV{
+    
+
+  }
+
+.tracos{
+    width: 1.8%;
+    display: flex;
+    gap: 80px;
+}
+
+.logo{
+    width: 13%;
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+    
+  }
+
+.perfil{
+    width: 6%;
+    display: flex;
+    gap: 120px;
+}
+
+main > .latinha{
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-top: -50px;
+}
+
