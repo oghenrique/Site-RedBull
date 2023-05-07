@@ -1,84 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    overflow: hidden;
-  }
-
-  body{
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 100px 1fr;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
-    background-image: url("./img/fundo.svg");
-  }
-
-  header{
-      display: flex;
-      gap: 200px;
-    
-  }
-
-  main{
-    
-  }
-
-
-  .menu{
-      display: flex;
-      gap: 110px;
-      align-items: center;
-      text-align: center;
-      margin-left: 150px;
-      margin-right: 0px;
-
-
-  }
-
-  .menu > .Produtos{
-    color: #FF0000;
-
-  }
-
-.menu > .BullTV{
-    
-
-  }
-
-.tracos{
-    width: 1.8%;
-    display: flex;
-    gap: 100px;
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-.logo{
-    width: 13%;
-    display: flex;
-    align-items: center;
-    margin-top: 0%;
-    
-  }
-
-.perfil{
-    width: 6%;
-    display: flex;
-    gap: 100px;
+/* estilos globais */
+html, body {
+  height: 10ovh;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
-main > .latinha{
-    align-items: center;
-    text-align: center;
-    display: block;
-    margin-top: -50px;
+body {
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  background-image: url("./img/fundo.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
 }
 
-.frase{
-    color: #FFF;
-    align-items: center;
-    text-align: center;
-    margin-right: 80px;
-
+/* estilos do header */
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 20px 0;
 }
+
+.logo {
+  width: 13%;
+  display: flex;
+  align-items: center;
+}
+
+.tracos {
+  width: 1.8%;
+  display: flex;
+  gap: 110px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+  margin-left: 150px;
+}
+
+.menu > .Produtos {
+  color: #FF0000;
+}
+
+.perfil {
+  width: 6%;
+  display: flex;
+  gap: 110px;
+}
+
+/* estilos do conteúdo principal */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.latinha {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-top: -100px;
+}
+
+.frase {
+  color: #FFF;
+  align-items: center;
+  text-align: center;
+  margin-right: 80px;
+}
+
