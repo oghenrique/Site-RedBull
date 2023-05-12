@@ -6,47 +6,40 @@
   text-decoration: none;
 }
 
-/* estilos globais */
-html, body {
-  height: 10ovh;
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
-
 body {
   display: grid;
-  grid-template-rows: 100px 1fr;
+  width: 100vw;
+  height: 100vh;
   background-image: url("./img/fundo.svg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
 }
 
-/* estilos do header */
-header {
-  display: flex;
-  align-items: center;
-  height: 100px;
-  padding: 20px 0;
-}
-
 .logo {
-  width: 13%;
+  width: 200px;
   display: flex;
   align-items: center;
 }
 
 .tracos {
-  width: 1.8%;
+  width: 30px;
   display: flex;
-  gap: 110px;
+  margin-top: 45%;
+  margin-left: 90%;
+  
 }
 
 .menu {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  place-content: center;
   gap: 110px;
-  margin-left: 150px;
+}
+
+.menu h2 {
+  display: grid;
+  place-items: center;
 }
 
 .menu > .Produtos {
@@ -54,12 +47,13 @@ header {
 }
 
 .perfil {
-  width: 6%;
+  width: 100px;
   display: flex;
   gap: 110px;
+  margin-top: 25%;
+  margin-left: -20%;
 }
 
-/* estilos do conteúdo principal */
 main {
   display: flex;
   flex-direction: column;
@@ -68,16 +62,11 @@ main {
 }
 
 .latinha {
-  display: block;
-  align-items: center;
-  text-align: center;
-  margin-top: -100px;
+
 }
 
-.frase {
+.Frase {
   color: #FFF;
-  align-items: center;
-  text-align: center;
-  margin-right: 80px;
+  margin-left: 70%;
 }
 
