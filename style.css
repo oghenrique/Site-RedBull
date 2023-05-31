@@ -63,67 +63,70 @@ main {
 
 }
 
-@media (max-width: 767px){ /* reset */
+@media (max-width: 768px){ 
 
 body {
   display: grid;
   width: 100vw;
   height: 100vh;
-  background-image: url("./img/fundo.svg");
+  background-image: url("./img/celular.png");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
-}
+  }
 
-.logo {
-  width: 200px;
-  display: flex;
-  align-items: center;
-}
+  .latinha{
+    display: none;
+  }
 
-.tracos {
-  width: 30px;
-  display: flex;
-  margin-top: 45%;
-  margin-left: 90%;
-}
-
-.menu {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  place-content: center;
-  gap: 110px;
-}
-
-.menu h2 {
-  display: grid;
-  place-items: center;
-}
-
-.menu > .Produtos {
-  color: #FF0000;
-}
-
-.perfil {
-  width: 100px;
-  display: flex;
-  gap: 110px;
-  margin-top: 25%;
-  margin-left: -20%;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-}
-
-@media (max-width: 1024px) {
-  body {
-    background-image: url(img/tablet.png);
-    background-repeat: no-repeat;
+  .menu{
+    display: none;
   }
 }
+
+@media (max-width: 1024px){ 
+
+  body {
+    background-image: url("./img/tablet.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    main{
+      height: 80vh;
+    }
+  
+    .latinha{
+      display: grid;
+      margin-right: 80px;
+    }
+
+    header > .menu{
+      height: 20vh;
+      display: grid;
+      width: 100vw;
+      gap: 32px;
+      margin-left: 40px;
+    }
+
+    .Produtos{
+      margin-left: 40px;
+
+    }
+
+    .logo{
+      margin-top: 50px;
+      display: none;
+    }
+
+    .tracos{
+      margin-top: 40px;
+      margin-right: 20px;
+    }
+
+    .perfil{
+      margin-top: 10px;
+    }
+  }
+
